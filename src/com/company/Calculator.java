@@ -48,7 +48,11 @@ public class Calculator {
     }
 
     public void divideNumber () {
+        if (this.firstNumber != 0 && this.secondNumber != 0) {
         double result = (double)    this.firstNumber / this.secondNumber;
         System.out.println("The result of the division is " + result);
+        } else {
+            System.out.println("The division is not possible! One of the numbers is 0!");
+        }
     }
 }

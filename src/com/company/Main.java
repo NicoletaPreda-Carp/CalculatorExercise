@@ -17,7 +17,7 @@ public class Main {
         }
         calculator.readNumbers();
 
-        switch (command) {
+        switch (command.toLowerCase()) {
             case "add": calculator.addNumbers();
             break;
             case "substract": calculator.substractNumbers();
