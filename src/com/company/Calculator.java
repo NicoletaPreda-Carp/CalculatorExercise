@@ -11,6 +11,11 @@ public class Calculator {
 
     }
 
+    public void introText () {
+        System.out.println("Please choose the type of operation you want to do: add, subtract, multiply, divide. ");
+        System.out.println("For exiting the program type <exit>");
+    }
+
     public void readNumbers() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Insert the first number: ");
