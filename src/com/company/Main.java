@@ -8,6 +8,8 @@ public class Main {
         Calculator calculator = new Calculator();
 
 	while (true) {
+        System.out.println("Please choose the type of operation you want to do: add, subtract, multiply, divide. " +
+                        "For exiting the program type <exit>");
         System.out.print("Insert the command: ");
         Scanner scanner = new Scanner(System.in);
         String command = scanner.nextLine();
