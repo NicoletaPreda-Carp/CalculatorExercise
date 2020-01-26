@@ -7,6 +7,7 @@ public class Calculator {
     private int firstNumber;
     private int secondNumber;
     private String command;
+    private Scanner scanner = new Scanner(System.in);
 
     public Calculator () {
 
@@ -19,13 +20,11 @@ public class Calculator {
 
     public String readCommand () {
         System.out.print("Insert the command: ");
-        Scanner scanner = new Scanner(System.in);
         this.command = scanner.nextLine();
         return command;
     }
 
     public void readNumbers() {
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Insert the first number: ");
         this.firstNumber = scanner.nextInt();
         System.out.print("Insert the second number ");
