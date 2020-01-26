@@ -18,16 +18,17 @@ public class Main {
             break;
         }
         calculator.readNumbers();
-        if (command.equalsIgnoreCase("add")) {
-            calculator.addNumbers();
-        } else if (command.equalsIgnoreCase("subtract")) {
-            calculator.substractNumbers();
-        } else if (command.equalsIgnoreCase("multiply")) {
-            calculator.multiplyNumbers();
-        } else if (command.equalsIgnoreCase("divide")) {
-            calculator.divideNumber();
+
+        switch (command) {
+            case "add": calculator.addNumbers();
+            break;
+            case "substract": calculator.substractNumbers();
+            break;
+            case "multiply": calculator.multiplyNumbers();
+            break;
+            case "divide": calculator.divideNumber();
+            }
         }
-    }
-	System.out.println("Thank you for using <The simple Calculator>!");
+        System.out.println("Thank you for using <The simple Calculator>!");
     }
 }
