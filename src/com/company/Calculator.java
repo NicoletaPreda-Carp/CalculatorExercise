@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Calculator {
     private int firstNumber;
     private int secondNumber;
+    private String command;
 
     public Calculator () {
 
@@ -14,6 +15,13 @@ public class Calculator {
     public void introText () {
         System.out.println("Please choose the type of operation you want to do: add, subtract, multiply, divide. ");
         System.out.println("For exiting the program type <exit>");
+    }
+
+    public String readCommand () {
+        System.out.print("Insert the command: ");
+        Scanner scanner = new Scanner(System.in);
+        this.command = scanner.nextLine();
+        return command;
     }
 
     public void readNumbers() {

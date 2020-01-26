@@ -10,9 +10,7 @@ public class Main {
 
 
 	while (true) {
-        System.out.print("Insert the command: ");
-        Scanner scanner = new Scanner(System.in);
-        String command = scanner.nextLine();
+	    String command= calculator.readCommand();
         if (command.equalsIgnoreCase("exit")) {
             System.out.println("Goodbye!");
             break;
