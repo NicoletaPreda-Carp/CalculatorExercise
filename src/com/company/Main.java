@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
+        System.out.println("Please choose the type of operation you want to do: add, subtract, multiply, divide. ");
+        System.out.println("For exiting the program type <exit>");
 
 	while (true) {
-        System.out.println("Please choose the type of operation you want to do: add, subtract, multiply, divide. " +
-                        "For exiting the program type <exit>");
         System.out.print("Insert the command: ");
         Scanner scanner = new Scanner(System.in);
         String command = scanner.nextLine();
