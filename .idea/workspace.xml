@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e9f1c4e-808f-432f-9efe-82a967f37bcf" name="Default Changelist" comment="" />
+    <list default="true" id="8749fff3-26ed-4b59-937a-0d20727be6d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1WvlKxDlWbaF4U2Fj5Yv8jjR9Ep" />
+  <component name="ProjectId" id="1Ww9WQKNcWWpflcRvv7iuqBw0S5" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -29,12 +27,15 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Calculator" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <module name="CalculatorExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -50,12 +51,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5e9f1c4e-808f-432f-9efe-82a967f37bcf" name="Default Changelist" comment="" />
-      <created>1580037888945</created>
+      <changelist id="8749fff3-26ed-4b59-937a-0d20727be6d0" name="Default Changelist" comment="" />
+      <created>1580049820494</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580037888945</updated>
+      <updated>1580049820494</updated>
     </task>
+    <task id="LOCAL-00001" summary="Enter the type of calculation possible">
+      <created>1580050470949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580050470949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Enter the type of calculation possible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enter the type of calculation possible" />
   </component>
 </project>
